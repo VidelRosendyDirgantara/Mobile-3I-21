@@ -43,3 +43,7 @@
 6. Dapatkan hasil dari pengerjaan. Jika berhasil, anda akan mendapat status PASSED. Jika gagal, anda akan mendapat status ERROR atau FAILED. Lihat dan cek validation detail dan teruslah mencoba
 
 ![Screenshot Gambar Jawaban](img/jawab6.jpg)
+
+*Screenshot Hasil Running di HP*
+
+![Screenshot Hasil Running](img/hasilrun.png)

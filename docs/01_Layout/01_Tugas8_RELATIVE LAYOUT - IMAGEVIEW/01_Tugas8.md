@@ -1,0 +1,69 @@
+# 01 - Tugas 8 - RELATIVE LAYOUT - IMAGEVIEW
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa mengetahui cara menampilkan gambar menggunakan imageview.
+
+## Hasil Praktikum
+
+![Screenshot Gambar Laporan](img/laporan1.jpg)
+
+1. Buka tab strings.xml.
+
+2. Tambahkan sumber daya string seperti yang dijelaskan di bawah.
+
+![Screenshot Gambar Laporan](img/laporan2.jpg)
+
+*Screenshot Source Code*
+
+![Screenshot Gambar Source Code](img/jawab2.jpg)
+
+3. Buka tab colors.xml.
+
+4. Tambahkan sumber daya warna seperti yang dijelaskan di bawah
+
+![Screenshot Gambar Laporan](img/laporan4.jpg)
+
+*Screenshot Source Code*
+
+![Screenshot Gambar Source Code](img/jawab4.jpg)
+
+5. Buka tab activity_main.xml.
+
+6. Buatlah sebuah RelativeLayout dengan id “imageActivity” sebagai layout utama. Atur warna background menjadi warna red chilli mengacu pada colors.xml. Lalu tambahkan atributnya
+
+![Screenshot Gambar Laporan](img/laporan6.jpg)
+
+*Screenshot Source Code*
+
+![Screenshot Gambar Source Code](img/jawab6.jpg)
+
+7. Di dalam tag Relative Layout utama, buat sebuah ImageView dengan id “avatarImageView”. ImageView ini untuk menampilkan gambar sederhana dari sumber drawable bawaan. Lalu tambahkan atributnya.
+
+![Screenshot Gambar Laporan](img/laporan7.jpg)
+
+*Screenshot Source Code*
+
+![Screenshot Gambar Source Code](img/jawab7.jpg)
+
+8. Tambahkan TextView dengan id “simpleTextView”. TextView ini untuk menampilkan teks sederhana dibawah ImageView. Gunakan simpleText mengacu pada strings.xml. Ubah warna teks menjadi white color mengacu pada colors.xml.
+
+![Screenshot Gambar Laporan](img/laporan8.jpg)
+
+*Screenshot Source Code*
+
+![Screenshot Gambar Source Code](img/jawab8.jpg)
+
+9. Lakukan Submit !
+
+![Screenshot Gambar Jawaban](img/jawab9.jpg)
+
+10. Dapatkan hasil dari pengerjaan. Jika berhasil, anda akan mendapat status PASSED. Jika gagal, anda akan mendapat status ERROR atau FAILED. Lihat dan cek validation detail dan teruslah mencoba
+
+![Screenshot Gambar Jawaban](img/jawab10.jpg)
+
+*Screenshot Hasil Running di HP*
+
+Saat di run di HP saya auto force close tetapi di aplas telah benar
+
+![Screenshot Hasil Running](img/hasilrun.png)

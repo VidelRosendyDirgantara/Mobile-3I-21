@@ -50,14 +50,6 @@ Template: <color name="color-name">color-value</color>
 
 ![Screenshot Gambar Source Code](img/jawab7.jpg)
 
-7. Tambahkan Button dengan id “learnButton” di bawah “secondTextView” Textview.
-
-![Screenshot Gambar Laporan](img/laporan7.jpg)
-
-*Screenshot Source Code*
-
-![Screenshot Gambar Source Code](img/jawab7.jpg)
-
 8. Tambahkan TextView dengan id “warningTextView”. TextView ini untuk memberi peringatan kepada pengguna ketika tombol caps lock menyala. Gunakan warningMessage pada strings.xml. Ubah warna text menjadi warna yellow mayo mengacu pada colors.xml.
 
 ![Screenshot Gambar Laporan](img/laporan8.jpg)

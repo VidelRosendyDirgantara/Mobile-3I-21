@@ -6,7 +6,7 @@
 
 ## Hasil Praktikum
 
-![Screenshot Gambar Laporan](img/laporan1.jpg)
+![Screenshot Gambar Laporan](img/laporan1.JPG)
 
 1. Buka tab strings.xml.
 
@@ -14,53 +14,53 @@
 
 Template: <string name="string-name">string-value</string>
 
-![Screenshot Gambar Laporan](img/laporan2.jpg)
+![Screenshot Gambar Laporan](img/laporan2.JPG)
 
 *Screenshot Source Code*
 
-![Screenshot Gambar Source Code](img/jawab2.jpg)
+![Screenshot Gambar Source Code](img/jawab2.JPG)
 
 3. Buka tab activity_main.xml.
 
 4. Buat sebuah RelativeLayout dengan id “stringActivity” sebagai layout utama, lalu tambahkan atributnya
 
-![Screenshot Gambar Laporan](img/laporan4.jpg)
+![Screenshot Gambar Laporan](img/laporan4.JPG)
 
 *Screenshot Source Code*
 
-![Screenshot Gambar Source Code](img/jawab4.jpg)
+![Screenshot Gambar Source Code](img/jawab4.JPG)
 
 5. Di dalam tag Relative Layout utama, buat sebuah TextView dengan id “helloWorldTextView”. Jangan ragu untuk mewarnai tampilan sesuka Anda. lalu tambahkan atributnya.
 
-![Screenshot Gambar Laporan](img/laporan5.jpg)
+![Screenshot Gambar Laporan](img/laporan5.JPG)
 
 *Screenshot Source Code*
 
-![Screenshot Gambar Source Code](img/jawab5.jpg)
+![Screenshot Gambar Source Code](img/jawab5.JPG)
 
 6. Tambahkan satu lagi Textview dengan id “secondTextView” di bawah “helloWorldTextView” Textview. Jangan ragu untuk mewarnai tampilan sesuka Anda. lalu tambahkan atributnya .
 
-![Screenshot Gambar Laporan](img/laporan6.jpg)
+![Screenshot Gambar Laporan](img/laporan6.JPG)
 
 *Screenshot Source Code*
 
-![Screenshot Gambar Source Code](img/jawab6.jpg)
+![Screenshot Gambar Source Code](img/jawab6.JPG)
 
 7. Tambahkan Button dengan id “learnButton” di bawah “secondTextView” Textview.
 
-![Screenshot Gambar Laporan](img/laporan7.jpg)
+![Screenshot Gambar Laporan](img/laporan7.JPG)
 
 *Screenshot Source Code*
 
-![Screenshot Gambar Source Code](img/jawab7.jpg)
+![Screenshot Gambar Source Code](img/jawab7.JPG)
 
 8. Lakukan Submit !
 
-![Screenshot Gambar Jawaban](img/jawab8.jpg)
+![Screenshot Gambar Jawaban](img/jawab8.JPG)
 
 9. Dapatkan hasil dari pengerjaan. Jika berhasil, anda akan mendapat status PASSED. Jika gagal, anda akan mendapat status ERROR atau FAILED. Lihat dan cek validation detail dan teruslah mencoba
 
-![Screenshot Gambar Jawaban](img/jawab9.jpg)
+![Screenshot Gambar Jawaban](img/jawab9.JPG)
 
 *Screenshot Hasil Running di HP*
 

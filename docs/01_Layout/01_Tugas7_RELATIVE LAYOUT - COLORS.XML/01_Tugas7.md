@@ -77,3 +77,9 @@ Template: <color name="color-name">color-value</color>
 *Screenshot Hasil Running di HP*
 
 ![Screenshot Hasil Running](img/hasilrun.png)
+
+[Kode Program ActivityMain Tugas 6](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/e3e5104f2df3614bdc0e5bf7b7a64035f66e4ed7/src/01_Layout/01_Tugas7_RELATIVE%20LAYOUT%20-%20COLORS.XML/app/src/main/res/layout/activity_main.xml)
+
+[Kode Program Strings Tugas 6](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/e3e5104f2df3614bdc0e5bf7b7a64035f66e4ed7/src/01_Layout/01_Tugas7_RELATIVE%20LAYOUT%20-%20COLORS.XML/app/src/main/res/values/strings.xml)
+
+[Kode Program Color Tugas 6]https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/e3e5104f2df3614bdc0e5bf7b7a64035f66e4ed7/src/01_Layout/01_Tugas7_RELATIVE%20LAYOUT%20-%20COLORS.XML/app/src/main/res/values/colors.xml)

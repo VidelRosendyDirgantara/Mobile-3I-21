@@ -48,3 +48,5 @@ B. Daftar Instruksi
 *Screenshot Hasil Running di HP*
 
 ![Screenshot Hasil Running](img/hasilrun.png)
+
+[Kode Program ActivityMain Tugas 2](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/bfa0a059031d1c12124322a1644e11bddcb3486e/src/01_Layout/01_Tugas2_LINEAR%20LAYOUT%20-%20EDITTEXT%20COMPONENTS/app/src/main/res/layout/activity_main.xml)

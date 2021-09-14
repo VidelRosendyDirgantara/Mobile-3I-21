@@ -46,3 +46,5 @@
 *Screenshot Hasil Running di HP*
 
 ![Screenshot Hasil Running](img/hasilrun.png)
+
+[Kode Program ActivityMain Tugas 3](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/ab9cabb4c7913caa2c6ecbfc9bdda6de3d2b8830/src/01_Layout/01_Tugas3_LINEAR%20LAYOUT-BUTTONS/app/src/main/res/layout/activity_main.xml)

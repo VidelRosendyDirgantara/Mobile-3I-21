@@ -67,3 +67,9 @@
 Saat di run di HP saya auto force close tetapi di aplas telah benar
 
 ![Screenshot Hasil Running](img/hasilrun.png)
+
+[Kode Program ActivityMain Tugas 8](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/4fe4a9b85704333ae3fe7e939edc61fe3be433a1/src/01_Layout/01_Tugas8_RELATIVE%20LAYOUT%20-%20IMAGEVIEW/app/src/main/res/layout/activity_main.xml)
+
+[Kode Program Strings Tugas 8](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/4fe4a9b85704333ae3fe7e939edc61fe3be433a1/src/01_Layout/01_Tugas8_RELATIVE%20LAYOUT%20-%20IMAGEVIEW/app/src/main/res/values/strings.xml)
+
+[Kode Program Color Tugas 8](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/4fe4a9b85704333ae3fe7e939edc61fe3be433a1/src/01_Layout/01_Tugas8_RELATIVE%20LAYOUT%20-%20IMAGEVIEW/app/src/main/res/values/colors.xml)

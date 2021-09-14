@@ -65,3 +65,7 @@ Template: <string name="string-name">string-value</string>
 *Screenshot Hasil Running di HP*
 
 ![Screenshot Hasil Running](img/hasilrun.png)
+
+[Kode Program ActivityMain Tugas 6](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/91a467a4f8977b05aa111de746da5c562c467984/src/01_Layout/01_Tugas6_RELATIVELAYOUT%20-%20STRINGSXML/app/src/main/res/layout/activity_main.xml)
+
+[Kode Program Strings Tugas 6](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/91a467a4f8977b05aa111de746da5c562c467984/src/01_Layout/01_Tugas6_RELATIVELAYOUT%20-%20STRINGSXML/app/src/main/res/values/strings.xml)

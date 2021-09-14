@@ -77,3 +77,5 @@
 *Screenshot Hasil Running di HP*
 
 ![Screenshot Hasil Running](img/hasilrun.png)
+
+[Kode Program ActivityMain Tugas 5](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/aff1a090ddbcecdb94d204aa7ddce4117f73bb47/src/01_Layout/01_Tugas5_LINEAR%20LAYOUT%20-%20LOGIN%20PAGE/app/src/main/res/layout/activity_main.xml)

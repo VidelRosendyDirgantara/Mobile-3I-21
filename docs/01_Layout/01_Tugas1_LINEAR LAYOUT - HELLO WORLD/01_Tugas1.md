@@ -47,3 +47,6 @@
 *Screenshot Hasil Running di HP*
 
 ![Screenshot Hasil Running](img/hasilrun.png)
+
+
+[Kode Program ActivityMain Tugas 1 - HELLO WORLD](https://github.com/VidelRosendyDirgantara/Mobile-3I-21/blob/4e3e298b14058f3297123c1401d46dd91cbc7d8a/src/01_Layout/01_Tugas1_LINEAR%20LAYOUT%20-%20HELLO%20WORLD/app/src/main/res/layout/activity_main.xml)

@@ -109,4 +109,64 @@
             android:gravity="center"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/child2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/child1"
+        android:layout_marginTop="5pt">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkRounded"
+            android:text="@string/chkRound"
+            android:textSize="8pt"
+            android:gravity="center"
+            android:checked="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkFormula"
+            android:text="@string/chkForm"
+            android:textSize="8pt"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/radioGroup"
+        android:gravity="center"
+        android:layout_marginTop="5pt"
+        android:orientation="horizontal"
+        android:layout_below="@+id/child2">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbTemp"
+            android:text="@string/rbTemp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbDist"
+            android:text="@string/rbDist"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbWeight"
+            android:text="@string/rbWeight"
+            android:checked="true"/>
+
+    </RadioGroup>
+
+
 </RelativeLayout>

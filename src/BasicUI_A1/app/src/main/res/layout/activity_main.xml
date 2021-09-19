@@ -33,4 +33,19 @@
         android:layout_below="@id/myTextView1"
         />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt"
+        android:id="@+id/space1"
+        android:layout_below="@+id/convertButton"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/child1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/space1">
+
+    </LinearLayout>>
+
 </RelativeLayout>

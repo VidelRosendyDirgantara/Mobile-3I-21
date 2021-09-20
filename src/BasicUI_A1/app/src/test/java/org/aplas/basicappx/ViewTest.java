@@ -1,12 +1,5 @@
 package org.aplas.basicappx;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
-
 import android.view.ViewGroup;
 
 import java.lang.reflect.Field;
@@ -15,6 +8,13 @@ import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 
 public class ViewTest {
     public static final String layoutName = "mainLayout";
@@ -79,16 +79,16 @@ public class ViewTest {
     }
 
     public String getAccessName(int access) {
-        if (access== Modifier.PUBLIC) {
+        if (access==Modifier.PUBLIC) {
             return "Public";
-        } else if (access== Modifier.PRIVATE) {
+        } else if (access==Modifier.PRIVATE) {
             return "Private";
         } else {
             return "Protected";
         }
     }
 
-    public void testField(Object obj, String fieldName, int access, Class<?> type, boolean isNull) {
+    public void testField(Object obj,String fieldName, int access, Class<?> type, boolean isNull) {
         Class<?> activityClass = obj.getClass();
         Field f;
         try {
@@ -106,7 +106,7 @@ public class ViewTest {
         }
     }
 
-    public void testMethod(Object obj, String methodName, int access, Class[] params, Class<?> returnType) {
+    public void testMethod(Object obj,String methodName, int access, Class[] params, Class<?> returnType) {
         Class<?> activityClass = obj.getClass();
         Method m;
         try {
@@ -134,7 +134,7 @@ public class ViewTest {
         return res;
     }
 
-    public Object getField(Object obj, String fieldName) {
+    public Object getField(Object obj,String fieldName) {
         Class<?> activityClass = obj.getClass();
         Field f;
         try {

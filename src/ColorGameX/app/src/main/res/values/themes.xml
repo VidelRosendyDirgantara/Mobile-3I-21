@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+        <item name="android:background">#a1c8ce</item>
+        <item name="android:paddingLeft">1pt</item>
+        <item name="android:paddingRight">1pt</item>
+        <item name="android:paddingTop">1pt</item>
+        <item name="android:paddingBottom">1pt</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+</resources>

@@ -149,3 +149,61 @@ Template: <color name=”color-name”>color-value</string>
 8. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
 
 ![Hasil Run A1 - 4](img/A1_4.JPG)
+
+# A1 - Basic UI Java Edition (05)
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa mengetahui cara mengkonfigurasi color resources, membuat EditText, dan Spinner.
+
+## Hasil Praktikum
+
+1. Buka proyek BasicAppX yang telah lulus pengujian.
+
+2. Buka file “strings.xml” di bawah folder “res/values”.
+
+![Screenshot Gambar Laporan](img/laporan20.JPG)
+
+3. Tambahkan nilai pada seluruh “string-array” name seperti di bawah ini. Template:
+
+<string-array name=”string-name”>
+<item>value1</item>
+
+![Screenshot Gambar Laporan](img/laporan21.JPG)
+
+4. Buka file activity_layout.xml, untuk mulai merancang UI.
+
+5. Pada LinearLayout dengan tag “child1”, tambahkan EditText dengan id “inputText” seperti berikut ini.
+
+![Screenshot Gambar Laporan](img/laporan22.JPG)
+
+6. Di bawah EditText, tambahkan sebuah Spinner dengan id “oriList” sesuai spesifikasi dokumen.
+
+![Screenshot Gambar Laporan](img/laporan23.JPG)
+
+7. Di bawah Spinner, tambahkan TextView dengan id “myTextView2” sesuai spesifikasi dokumen.
+
+![Screenshot Gambar Laporan](img/laporan24.JPG)
+
+8. Di bawah TextView, tambahkan EditText dengan id “outputText” sesuai spesifikasi dokumen.
+
+![Screenshot Gambar Laporan](img/laporan25.JPG)
+
+9. Di bawah EditText, tambahkan Spinner dengan id “convList” sesuai spesifikasi dokumen.
+
+![Screenshot Gambar Laporan](img/laporan26.JPG)
+
+10. Hasilnya akan tampak seperti gambar di bawah ini.
+
+![Screenshot Gambar Laporan](img/laporan27.JPG)
+
+11. Salin file “TestA1BasicUIX051.java” dan “TestA1BasicUIX052.java” ke folder “org.aplas.basicapp (test)”.
+
+![Screenshot Gambar Laporan](img/laporan28.JPG)
+
+12. Klik kanan file “TestA1BasicUIX051.java” kemudian pilik dan klik Run ‘TestA1BasicUIX051’. Hal ini akan membutuhkan waktu dalam pelaksanaannya. Lakukan Langkah yang sama pada file “TestA1BasicUIX052.java”.
+
+13. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
+
+![Hasil Run A1 - 51](img/A1_5_1.JPG)
+![Hasil Run A1 - 52](img/A1_5_2.JPG)

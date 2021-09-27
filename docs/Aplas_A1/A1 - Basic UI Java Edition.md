@@ -31,3 +31,43 @@
 ![Screenshot Gambar Laporan](img/A1_1.JPG)
 
 # A1 - Basic UI Java Edition (02)
+
+1. Buka proyek BasicAppX yang telah lulus pengujian.
+
+![Screenshot Gambar Laporan](img/laporan5.JPG)
+
+2. Buat folder “font” di bawah folder “res”. Klik kanan folder “res” dan pilih “New – Adroid Resource Directory”.
+
+Kemudian tampilkan “New Resource Directory”, dan pilih Resource type: “font”,
+
+kemudian klik “OK”.
+
+![Screenshot Gambar Laporan](img/laporan6.JPG)
+
+3. Salin file “cambria.ttf” dan “lucida.ttf” dalam folder Supplement ke dalam folder “font” yang sudah dibuat.
+
+![Screenshot Gambar Laporan](img/laporan7.JPG)
+
+4. Buka file “strings.xml” di bawah folder “res/values”
+
+5. Edit nilai seluruh “string” name seperti di bawah ini.
+
+Template: <string name=”string-name”>string-value</string>
+
+![Screenshot Gambar Laporan](img/laporan8.JPG)
+
+6. Buka file “colors.xml” di bawah folder “res/values” kemudian edit nilai seluruh “color” name seperti di bawah ini.
+
+Template: <color name=”color-name”>color-value</string>
+
+![Screenshot Gambar Laporan](img/laporan9.JPG)
+
+7. Salin file “TestA1BasicUIX021.java” dan “ResourceTest.java” ke dalam folder “org.aplas.basicappx (test)”
+
+![Screenshot Gambar Laporan](img/laporan10.JPG)
+
+8. Klik kanan file “TestA1BasicUIX021.java” kemudian pilih dan klik Run ‘TestA1BasicUIX021’. Hal ini membutuhkan waktu dalam pelaksanaannya.
+
+9. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
+
+![Hasil Run A1 - 2](img/A1_2.JPG)

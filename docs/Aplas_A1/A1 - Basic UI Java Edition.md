@@ -77,3 +77,41 @@ Template: <color name=”color-name”>color-value</string>
 9. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
 
 ![Hasil Run A1 - 2](img/A1_2.JPG)
+
+# A1 - Basic UI Java Edition (03)
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa mampu merancang layout dasar, menambahkan TextView, dan sebuah Button.
+
+## Hasil Praktikum
+
+1. Buka proyek BasicAppX yang telah lulus pengujian.
+
+2. Buka file “activity_main.xml” dalam layout resource, untuk memulai rancangan UI.
+
+3. Pada layout editor xml, hapus default “ConstraintLayout” beserta seluruh tag-nya dan buatlah sebuah “RelativeLayout” dengan id “mainLayout” sebagai layout utamanya sesuai dengan spesifikasi di bawah ini.
+
+![Screenshot Gambar Laporan](img/laporan11.JPG)
+
+4. Pada tag RelativeLayout, tambahkan TextView dengan id “myTextView1” sesuai dengan spesifikasi di bawah ini.
+
+![Screenshot Gambar Laporan](img/laporan12.JPG)
+
+5. Di bawah TextView, tambahkan sebuah Button dengan id “convertButton” sesuai dengan spesifikasi di bawah ini.
+
+![Screenshot Gambar Laporan](img/laporan13.JPG)
+
+6. UI akan menjadi seperti gambar di bawah ini.
+
+![Screenshot Gambar Laporan](img/laporan14.JPG)
+
+7. Salin file “TestA1BasicUIX031.java” dan “ElementTest.java” ke dalam folder “org.aplas.basicappx (test)”
+
+![Screenshot Gambar Laporan](img/laporan15.JPG)
+
+8. Klik kanan file “TestA1BasicUIX031.java” kemudian pilih dan klik Run ‘TestA1BasicUIX031’. Hal ini membutuhkan waktu dalam pelaksanaannya.
+
+9. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
+
+![Hasil Run A1 - 3](img/A1_3.JPG)

@@ -100,7 +100,14 @@ public class MyActivity extends AppCompatActivity {
     }
 
     public void submitColor(View v) {
-
+        String charCode = ((Button) v).getText().toString();
+        if (isStarted == true) {
+            if (charCode.equals(charList.get(clrText.getText().toString()))) {
+                correctSubmit();
+            } else {
+                wrongSubmit();
+            }
+        }
     }
 
     private void initTimer() {
@@ -112,7 +119,7 @@ public class MyActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-
+                wrongSubmit();
             }
         };
     }
@@ -145,4 +152,28 @@ public class MyActivity extends AppCompatActivity {
         countDown.start();
     }
 
+    private void updateScore(int score) {
+        progress.setProgress(score);
+        scoreText.setText(Integer.toString(score));
+    }
+
+    private void correctSubmit() {
+        int newScore = progress.getProgress() + getResources().getInteger(R.integer.counter);
+        updateScore(newScore);
+        if (progress.getProgress() == getResources().getInteger(R.integer.maxScore)) {
+            countDown.cancel();
+            timer.setText("COMPLETE");
+            isStarted = false;
+            start.setVisibility(View.VISIBLE);
+        } else {
+            newGameStage();
+        }
+    }
+
+    private void wrongSubmit() {
+        if (isMinus.isChecked() && progress.getProgress() > 0) {
+            updateScore(progress.getProgress() - getResources().getInteger(R.integer.counter));
+        }
+        newGameStage();
+    }
 }

@@ -13,6 +13,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 public class MyActivity extends AppCompatActivity {
@@ -32,6 +33,8 @@ public class MyActivity extends AppCompatActivity {
     Switch isMinus;
     String FORMAT = "%d:%d";
     CountDownTimer countDown;
+    String[] clrList;
+    HashMap charList = new HashMap();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +56,7 @@ public class MyActivity extends AppCompatActivity {
         progress = (ProgressBar) findViewById(R.id.progressScore);
         isMinus = (Switch) findViewById(R.id.isMinus);
         initTimer();
-
+        initColorList();
     }
 
     public void openGame(View v) {
@@ -103,5 +106,14 @@ public class MyActivity extends AppCompatActivity {
 
             }
         };
+    }
+
+    private void initColorList() {
+        String[] temp;
+        clrList = getResources().getStringArray(R.array.colorList);
+        temp = getResources().getStringArray(R.array.charList);
+        for (int i = 0; i < clrList.length; i++) {
+            charList.put(clrList[i], temp[i]);
+        }
     }
 }

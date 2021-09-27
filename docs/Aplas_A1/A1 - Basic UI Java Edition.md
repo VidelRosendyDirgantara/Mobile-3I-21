@@ -115,3 +115,37 @@ Template: <color name=”color-name”>color-value</string>
 9. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
 
 ![Hasil Run A1 - 3](img/A1_3.JPG)
+
+# A1 - Basic UI Java Edition (04)
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa mampu membuat Space dan menambahkan Child Layout.
+
+## Hasil Praktikum
+
+1. Buka proyek BasicAppX yang telah lulus pengujian.
+
+2. Buka file activity_main.xml, untuk mulai merancang UI.
+
+3. Pada layout xml editor, buat sebuah “Space” dengan id “space” sesuai spesifikasi berikut.
+
+![Screenshot Gambar Laporan](img/laporan16.JPG)
+
+4. Di bawah Space, tambahkan LinearLayout sebagai Child Layout dengan id “child1” sesuai spesifikasi berikut.
+
+![Screenshot Gambar Laporan](img/laporan17.JPG)
+
+5. UI akan tampak seperti gambar berikut ini.
+
+![Screenshot Gambar Laporan](img/laporan18.JPG)
+
+6. Salin file “TestA1BasicUIX041.java” ke dalam folder “org.aplas.basicapp (test)”
+
+![Screenshot Gambar Laporan](img/laporan19.JPG)
+
+7. Klik kanan file “TestA1BasicUIX041.java” kemudian pilih dan klik Run ‘TestA1BasicUIX041’. Hal ini memerlukan waktu dalam pelaksanaannya.
+
+8. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
+
+![Hasil Run A1 - 4](img/A1_4.JPG)

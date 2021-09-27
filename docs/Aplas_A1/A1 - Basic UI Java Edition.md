@@ -32,6 +32,12 @@
 
 # A1 - Basic UI Java Edition (02)
 
+## Tujuan Pembelajaran
+
+1. Mahasiswa memahami cara mengkonfigurasi Android Studio Project Resource, seperti string dan font.
+
+## Hasil Praktikum
+
 1. Buka proyek BasicAppX yang telah lulus pengujian.
 
 ![Screenshot Gambar Laporan](img/laporan5.JPG)

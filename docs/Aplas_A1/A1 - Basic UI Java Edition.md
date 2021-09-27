@@ -207,3 +207,41 @@ Template: <color name=”color-name”>color-value</string>
 
 ![Hasil Run A1 - 51](img/A1_5_1.JPG)
 ![Hasil Run A1 - 52](img/A1_5_2.JPG)
+
+# A1 - Basic UI Java Edition (06)
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa mampu membuat CheckBox.
+
+## Hasil Praktikum
+
+1. Buka proyek BasicAppX yang telah lulus pengujian.
+
+2. Buka file activity_main.xml, untuk mulai merancang UI.
+
+3. Di bawah LinearLayout “child1”, buat LinearLayout dengan id “child2” sesuai spesifikasi berikut.
+
+![Screenshot Gambar Laporan](img/laporan29.JPG)
+
+4. Pada tag “child2”, tambahkan CheckBox dengan id “chkRounded” sesuai spesifikasi berikut.
+
+![Screenshot Gambar Laporan](img/laporan30.JPG)
+
+5. Di bawah checkbox “chkRounded”, tambahkan CheckBox dengan id “chkFormula” sesuai spesifikasi berikut.
+
+![Screenshot Gambar Laporan](img/laporan31.JPG)
+
+6. Hasilnya akan tampak seperti gambar di bawah ini.
+
+![Screenshot Gambar Laporan](img/laporan32.JPG)
+
+7. Salin file “TestA1BasicUIX061.java” ke folder “org.aplas.basicapp (test)”
+
+![Screenshot Gambar Laporan](img/laporan33.JPG)
+
+8. Klik kanan file “TestA1BasicUIX061.java” kemudian pilih dan klik Run ‘TestA1BasicUIX061’. Hal ini akan membutuhkan waktu dalam pelaksanaannya.
+
+9. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda
+
+![Hasil Run A1 - 6](img/A1_6.JPG)

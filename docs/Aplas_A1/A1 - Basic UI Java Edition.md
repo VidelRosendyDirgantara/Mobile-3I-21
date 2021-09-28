@@ -281,3 +281,42 @@ Template: <color name=”color-name”>color-value</string>
 8. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
 
 ![Hasil Run A1 - 7](img/A1_7.JPG)
+
+# A1 - Basic UI Java Edition (08)
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa memahami cara menambahkan image resource dan ImageView.
+
+## Hasil Praktikum
+
+1. Buka proyek BasicAppX project yang telah lulus pengujian.
+
+2. Salin file “temperature.jpg” dalam folder Supplement ke folder “drawable” di bawah folder “res”.
+
+![Screenshot Gambar Laporan](img/laporan40.JPG)
+
+Pilih “drawable” kemudian klik OK
+
+![Screenshot Gambar Laporan](img/laporan41.JPG)
+
+3. Buka file activity_main.xml file, unruk memulai merancang UI.
+
+4. Di bawah TableLayout, buatlah ImageView dengan id “imgFormula” sesuai spesifikasi berikut.
+
+![Screenshot Gambar Laporan](img/laporan42.JPG)
+
+5. Hasilnya akan tampak seperti pada gambar berikut.
+
+![Screenshot Gambar Laporan](img/laporan43.JPG)
+
+6. Salin file “TestA1BasicUIX081.java” dan “TestA1BasicUIX081.java” ke dalam folder “org.aplas.basicappx (test)”.
+
+![Screenshot Gambar Laporan](img/laporan44.JPG)
+
+7. Klik kanan pada setiap file tes kemudian pilih dan klik Run. Hal ini akan membutuhkan waktu dalam pelaksanaannya.
+
+8. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
+
+![Hasil Run A1 - 81](img/A1_8_1.JPG)
+![Hasil Run A1 - 82](img/A1_8_2.JPG)

@@ -245,3 +245,39 @@ Template: <color name=”color-name”>color-value</string>
 9. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda
 
 ![Hasil Run A1 - 6](img/A1_6.JPG)
+
+# A1 - Basic UI Java Edition (07)
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa mampu membuat RadioGroup dan RadioButton.
+
+## Hasil Praktikum
+
+1. Buka proyek BasicAppX yang telah lulus pengujian.
+
+2. Buka file activity_main.xml, untuk memulai mendesain UI.
+
+3. Di bawah LinearLayout “child2”, buatlah RadioGroup dengan id “radioGroup” sesuai spesifikasi berikut
+
+![Screenshot Gambar Laporan](img/laporan34.JPG)
+
+4. Dalam tag “radioGroup”, tambahkan 3 RadioButton(s) dengan id “rbTemp”, “rbDist”, dan “rbWeight” sesuai spesifikasi berikut.
+
+![Screenshot Gambar Laporan](img/laporan35.JPG)
+![Screenshot Gambar Laporan](img/laporan36.JPG)
+![Screenshot Gambar Laporan](img/laporan37.JPG)
+
+5. Hasilnya akan tampak seperti gambar berikut.
+
+![Screenshot Gambar Laporan](img/laporan38.JPG)
+
+6. Salin file “TestA1BasicUIX071.java” ke dalam folder “org.aplas.basicappx (test)”.
+
+![Screenshot Gambar Laporan](img/laporan39.JPG)
+
+7. Klik kanan file “TestA1BasicUIX071.java” kemudian pilih dan klik Run ‘TestA1BasicUIX071’. Hal ini akan membutuhkan waktu dalam pelaksanaannya.
+
+8. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
+
+![Hasil Run A1 - 7](img/A1_7.JPG)

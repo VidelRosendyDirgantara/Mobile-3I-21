@@ -320,3 +320,56 @@ Pilih “drawable” kemudian klik OK
 
 ![Hasil Run A1 - 81](img/A1_8_1.JPG)
 ![Hasil Run A1 - 82](img/A1_8_2.JPG)
+
+# A1 - Basic UI Java Edition (09)
+
+## Tujuan Pembelajaran
+
+1. Mahasiswa daamampu menambahkan drawable resource dan membuat Tabel.
+
+## Hasil Praktikum
+
+1. Buka proyek BasicAppX yang telah lulus pengujian.
+
+2. Salin file “cell_style.xml” dan “header_style.xml” dalam folder Supplement ke folder “drawable” yang terletak di bawah folder “res”.
+
+![Screenshot Gambar Laporan](img/laporan45.JPG)
+
+Pilih “drawable” kemudian klik OK.
+
+![Screenshot Gambar Laporan](img/laporan46.JPG)
+
+3. Buka activity_main.xml file, untuk mulai merancang UI.
+
+4. Di bawah ImageView “img”, buatlah TableLayout dengan id “table” sesuai spesifikasi berikut
+
+![Screenshot Gambar Laporan](img/laporan47.JPG)
+
+5. Pada tag TableLayout, tambahkan 3 TableRow(s) tanpa properti.
+
+6. Pada setiap tag TableRow(s), tambahkan 1 TextView sebagai “header” sesuai dengan spesifikasi berikut dalam specification document.
+
+![Screenshot Gambar Laporan](img/laporan48.JPG)
+![Screenshot Gambar Laporan](img/laporan49.JPG)
+![Screenshot Gambar Laporan](img/laporan50.JPG)
+
+7. Pada setiap tag TableRow, di bawah header textview, tambahkan 3 TextView(s) sebagai “content” sesuai dengan spefisikasi berikut dalam specification document.
+
+![Screenshot Gambar Laporan](img/laporan51.JPG)
+![Screenshot Gambar Laporan](img/laporan52.JPG)
+![Screenshot Gambar Laporan](img/laporan53.JPG)
+
+8. Hasilnya akan tampak seperti pada gambar
+
+![Screenshot Gambar Laporan](img/laporan54.JPG)
+
+9. Salin file “TestA1BasicUIX091.java” dan “TestA1BasicUIX092.java” ke dalam folder “org.aplas.basicappx (test)”.
+
+![Screenshot Gambar Laporan](img/laporan55.JPG)
+
+10. Klik kanan pada setiap file tes kemudian pilih dan klik Run. Hal ini akan membutuhkan waktu dalam pelaksanaannya.
+
+11. Periksa hasil dari tugas Anda. Anda dinyatakan berhasil jika mendapatkan tanda centang hijau. Jika gagal, Anda akan mendapatkan tanda silang oranye dan beberapa pesan, dan harus mengulang proyek Anda.
+
+![Hasil Run A1 - 91](img/A1_9_1.JPG)
+![Hasil Run A1 - 92](img/A1_9_2.JPG)

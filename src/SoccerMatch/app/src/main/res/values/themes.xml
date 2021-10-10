@@ -12,4 +12,8 @@
         <item name="android:typeface">monospace</item>
         <item name="android:textSize">10sp</item>
     </style>
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@android:color/holo_red_light</item>
+    </style>
 </resources>

@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="textTitle">#FCF08F</color>
+    <color name="invert_color">#ACACAC</color>
+    <array name="animal_color">
+        <item>#FFEB3B</item>
+        <item>#FAC2C6</item>
+        <item>#A2FA92</item>
+        <item>#7491FF</item>
+        <item>#F1B1FF</item>
+    </array>
 </resources>

@@ -16,6 +16,9 @@
             android:name=".InvertActivity"
             android:exported="true"/>
         <activity
+            android:name=".SubInvertActivity"
+            android:exported="true"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -13,6 +13,9 @@
             android:name=".MediaActivity"
             android:exported="true"/>
         <activity
+            android:name=".InvertActivity"
+            android:exported="true"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

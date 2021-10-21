@@ -104,7 +104,6 @@ public class TestC1MyData011 extends ViewTest {
             rsc.testColorResource(activity, "btnDownload", "#FBBAFF");
             rsc.testColorResource(activity, "btnOpen", "#5AFFB1");
             rsc.testColorResource(activity, "lightBlue", "#5AFFFF");
-            rsc.testColorResource(activity, "btnAdd", "#00B6CD")            ;
         });
 
     }
@@ -126,7 +125,7 @@ public class TestC1MyData011 extends ViewTest {
         //image check
         scenario.onActivity(activity -> {
             ResourceTest rsc = new ResourceTest(activity.getResources());
-            rsc.testImgResource("mylibrary");
+            rsc.testImgResource("mydata");
             rsc.testImgResource("key");
         });
 

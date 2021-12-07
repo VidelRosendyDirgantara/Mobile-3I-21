@@ -19,6 +19,6 @@
             </intent-filter>
         </activity>
     </application>
-    <user-permission android:name="android.pemission.INTERNET"/>
-    <user-permission android:name="android.pemission.ACCESS_NETWORK"/>
+    <uses-permission android:name="android.pemission.INTERNET"/>
+    <uses-permission android:name="android.pemission.ACCESS_NETWORK"/>
 </manifest>

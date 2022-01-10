@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WisataMojokerto">
         <activity
+            android:name=".DetailWisataActivity"
+            android:exported="true" />
+        <activity
             android:name=".HalamanAdminActivity"
             android:exported="true" />
         <activity
